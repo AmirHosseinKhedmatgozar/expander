@@ -1,0 +1,24 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.box {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 7px;
+  background-color: #f7f7f7;
+}
+.justMargin {
+  margin-top: 10px;
+}
+@media only screen and (max-width: 750px) {
+  .container {
+    width: 500px;
+    height: 500px;
+  }
+}
